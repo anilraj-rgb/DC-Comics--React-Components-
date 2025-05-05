@@ -84,3 +84,43 @@ main div.container {
   color: white;
   font-size: 15px;
 }
+
+/* Main LIST */
+
+section {
+  background-color: #0282f9;
+  padding: 40px;
+}
+
+section div.container {
+  display: flex;
+}
+
+/* MainList component styles */
+section div.container ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+section div.container ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+section div.container img.logo {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  vertical-align: middle;
+
+}
+
+section div.container ul li a {
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+}
