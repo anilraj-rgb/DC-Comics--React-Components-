@@ -4,3 +4,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Imposta il font principale del sito */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Fa sì che tutte le immagini siano responsive */
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
