@@ -124,3 +124,42 @@ section div.container ul li a {
   font-size: 12px;
   white-space: nowrap;
 }
+
+footer {
+  background-image: url('/src/assets/img/footer-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 60px 0;
+}
+
+footer .container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-columns {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  /* Occupa tutto lo spazio disponibile */
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+}
+
+.footer-col h2 {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
