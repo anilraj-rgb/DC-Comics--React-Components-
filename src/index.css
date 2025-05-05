@@ -22,3 +22,65 @@ img {
   margin: 0 auto;
 
 }
+
+/* HEADER */
+
+/* Stili per l'header */
+header.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Rimuove la sottolineatura predefinita dai link e imposta il colore nero */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Stile per le liste di navigazione */
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  font-weight: bold;
+  font-size: 14px
+}
+
+ul li a:hover {
+  color: #0282f9;
+}
+
+/* Stile per i link quando hanno il focus (selezionati) */
+ul li a:focus {
+  outline: none;
+  color: #0282f9;
+  position: relative;
+}
+
+/* Crea una linea sotto il link quando ha il focus */
+ul li a:focus::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -63px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #0282f9;
+}
+
+/* MAIN CONTENT */
+main {
+  background-color: black;
+}
+
+main div.container {
+  padding: 60px;
+  color: white;
+  font-size: 15px;
+}
