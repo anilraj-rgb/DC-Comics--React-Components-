@@ -163,18 +163,9 @@ const ListComics = () => {
             </div>
             <div className="container card-container">
                 <div className="card-list">
-                    <ComicCard comic={comics[0]} />
-                    <ComicCard comic={comics[1]} />
-                    <ComicCard comic={comics[2]} />
-                    <ComicCard comic={comics[3]} />
-                    <ComicCard comic={comics[4]} />
-                    <ComicCard comic={comics[5]} />
-                    <ComicCard comic={comics[6]} />
-                    <ComicCard comic={comics[7]} />
-                    <ComicCard comic={comics[8]} />
-                    <ComicCard comic={comics[9]} />
-                    <ComicCard comic={comics[10]} />
-                    <ComicCard comic={comics[11]} />
+                    {comics.map((comic) => (
+                        <ComicCard comic={comic} />
+                    ))}
                 </div>
                 <div className="load-more-container">
                     <button className="load-more-btn">LOAD MORE</button>
